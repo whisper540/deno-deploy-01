@@ -14,6 +14,7 @@ export default function Home() {
       <p class={tw`my-6`}>
         这是一条deno-deploy自动构建的页面,文件基于github仓库！
       </p>
+        <p>仓库地址:https://github.com/whisper540/deno-deploy-01</p>
         <p>基于Deno(1.23.4)+Fresh(1.0)</p>
       <Counter start={3} />
     </div>
