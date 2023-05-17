@@ -1,7 +1,3 @@
-// routes/search.tsx
-
-/** @jsx h */
-import { h } from "preact";
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 const NAMES = ["Alice", "Bob", "Charlie", "Dave", "Eve", "Frank"];

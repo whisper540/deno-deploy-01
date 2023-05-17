@@ -1,5 +1,3 @@
-// routes/api/random-uuid.ts
-
 import { Handlers } from "$fresh/server.ts";
 
 export const handler: Handlers = {
