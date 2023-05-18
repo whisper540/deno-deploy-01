@@ -15,8 +15,8 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy to Deno Deploy
-        uses: denoland/deployctl@v1
         run: deno --version
+        uses: denoland/deployctl@v1
         with:
           project: anliu # the name of the project on Deno Deploy
           entrypoint: main.ts # the entrypoint to deploy
