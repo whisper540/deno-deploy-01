@@ -16,6 +16,7 @@ jobs:
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
+        run: deno --version
         with:
           project: anliu # the name of the project on Deno Deploy
           entrypoint: main.ts # the entrypoint to deploy
