@@ -33,7 +33,7 @@ const initDb = ():Data[]=>{
 export const handler: Handlers = {
     async GET(req, ctx) {
         // const data = initDb();
-        const resp = await ctx.render(data);
+        const resp = await ctx.render();
         resp.headers.set("X-Custom-Header", "Hello");
         return resp;
     },
