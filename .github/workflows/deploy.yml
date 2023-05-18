@@ -16,7 +16,7 @@ jobs:
 
 
       - name: Add cmd
-        run: deno --version
+        run: echo victory!
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
