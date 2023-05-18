@@ -11,6 +11,10 @@
     "sqlite": "https://deno.land/x/sqlite",
     "sqlite/": "https://deno.land/x/sqlite/",
     "confetti": "https://esm.sh/canvas-confetti@1.6.0",
-    "confetti/": "https://esm.sh/canvas-confetti@1.6.0/"
+    "confetti/": "https://esm.sh/canvas-confetti@1.6.0/",
+    "postgres": "https://deno.land/x/postgres@v0.17.0",
+    "postgres/": "https://deno.land/x/postgres@v0.17.0/",
+    "std": "https://deno.land/std",
+    "std/": "https://deno.land/std/"
   }
 }
