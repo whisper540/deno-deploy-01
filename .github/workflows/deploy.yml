@@ -8,7 +8,7 @@ jobs:
 
     permissions:
       id-token: write # This is required to allow the GitHub Action to authenticate with Deno Deploy.
-      contents: write
+      contents: read
 
     steps:
       - name: Clone repository
